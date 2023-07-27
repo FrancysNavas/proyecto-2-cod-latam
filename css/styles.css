@@ -1,0 +1,105 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Para que el scrolleo en la one page sea suave */
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    background-color: #fbfbfb;
+    font-size: 18px;
+    line-height: 1.2;
+    
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 3px 10px -5px #9c9a9a;
+}
+/* Para quitar los puntos a los items de listas */
+ul {
+    list-style: none;
+    display:inline-flex;
+    padding: 80px;
+    margin: 20px;
+
+}
+
+/* Para que los enlaces hereden el color de texto y no tengan subrayado */
+a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;)
+*/
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+h1 {
+    font-size: 36px;
+    margin-top: 20px;
+}
+h2 {
+    font-size: 28px;
+}
+.iconos {
+    width: 60px;    
+    margin: 20px;
+}
+nav{
+    display: flex;
+
+}
+li.menu{
+    margin: 20px;
+}
+#logo{
+    width: 140px;
+    height: 140px;
+
+}
+#switch{
+    visibility: hidden;
+}
+label{
+    cursor: pointer;
+    text-indent: -2000px;
+    width: 80px;
+    height: 40px;
+    background: gray;
+    border-radius: 200px;
+    position: relative;
+}
+label::after{
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 90px;
+    transition: 0.4s;
+}
+input:checked + label {
+    background: fuchsia;
+}
+input:checked + label::after{
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+}
