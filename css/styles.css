@@ -22,10 +22,11 @@ header {
     padding: 16px;
     height: 90px;
     width: 100%;
-    position: fixed;
+    position:fixed;
     top: 0;
     left: 0;
     box-shadow: 0 3px 10px -5px #9c9a9a;
+    z-index: 1;
 }
 /* Para quitar los puntos a los items de listas */
 ul {
@@ -53,9 +54,12 @@ main {
 h1 {
     font-size: 36px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 h2 {
     font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .iconos {
     width: 60px;    
@@ -87,7 +91,6 @@ p {
     
 }
 /*boton CV*/
-
 .glow-on-hover {
     width: 220px;
     height: 50px;
@@ -147,7 +150,7 @@ p {
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
-/**/
+/*----switch cambio oscuro-------*/
 #switch{
     visibility: hidden;
 }
@@ -159,7 +162,7 @@ label{
     background: gray;
     border-radius: 200px;
     position: relative;
-    font-family: 'Josefin Slab', serif;
+    
 }
 label::after{
     content: '';
@@ -178,4 +181,14 @@ input:checked + label {
 input:checked + label::after{
     left: calc(100% - 5px);
     transform: translateX(-100%);
+}
+/*-----------*/
+section{
+    margin-bottom: 40px;
+}
+.card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
 }
