@@ -11,32 +11,34 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&display=swap" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css" />
-    
+    <link rel="icon" type="image/jpg" href="img/favicon.ico" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="#inicio" 
-          ><img
-            id="logo"
-            src="img/Francys navas.png"
-            alt="logo-FrancysNavas"
+        <a href="#inicio"
+          ><img id="logo" src="img/Francys navas.png" alt="logo-FrancysNavas"
         /></a>
-        <ul >
+        <ul>
           <li class="menu"><a href="#inicio"> Inicio</a></li>
           <li class="menu"><a href="#contacto"> Contacto</a></li>
+          <li class="menu"><a href="#proyectos"> Proyectos</a></li>
+          <li class="menu"><a href="#estudios"> Estudios</a></li>
         </ul>
       </nav>
-        <input type="checkbox" id="switch">
-        <label for="switch"></label>
+      <input type="checkbox" id="switch" />
+      <label for="switch"></label>
     </header>
 
     <!-- La estructura básica y la vinculación con CSS estan listas. A codear! 💪  -->
     <!-- En este archivo escriban su HTML -->
     <main>
-     
+      <!--seccion inicio-->
       <section id="inicio">
         <figure>
           <img
@@ -55,9 +57,10 @@
             en este amplio mundo de programadores donde la participación de las
             mujeres es muy baja.
           </p>
-          <button><a href="">Descarga mi CV</a></button>
+          <button class="glow-on-hover"><a href="">Descarga mi CV</a></button>
         </article>
       </section>
+      <!--seccion contacto-->
       <section id="contacto">
         <h2>Hablemos!</h2>
         <p class="cont">
@@ -69,41 +72,37 @@
         <ul>
           <li>
             <a href="mailto:francys.navas.sanchez@gmail.com"
-              ><img
-                class="iconos"
-                src="img/mail.png"
-                alt="Correo"
-              />
+              ><img class="iconos" src="img/mail.png" alt="Correo" />
             </a>
           </li>
           <li>
             <a href="https://github.com/FrancysNavas"
-              ><img
-                class="iconos"
-                src="img/github.png"
-                alt="GitHub"
-              />
+              ><img class="iconos" src="img/github.png" alt="GitHub" />
             </a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/francys-e-navas-80a60b172"
-              ><img
-                class="iconos"
-                src="img/linkedin.png"
-                alt="Linkedin"
-              />
-            </a> 
+              ><img class="iconos" src="img/linkedin.png" alt="Linkedin" />
+            </a>
           </li>
         </ul>
       </section>
+      <!--seccion proyectos-->
+      <section class="proyectos">
+        <h2>Proyectos Realizados</h2>
+      </section>
+      <!--seccion estudios-->
+      <section class="estudios">
+        <h2>Estudios Realizados</h2>
+      </section>
+
     </main>
     <footer>
       <small>
-      Código Latam |<i class="bi bi-c-circle"></i> Realizado por: Francys Navas
-      de Castejón </small>
+        Código Latam |<i class="bi bi-c-circle"></i> Realizado por: Francys
+        Navas de Castejón
+      </small>
     </footer>
     <script src="js/main.js"></script>
-   
-
   </body>
 </html>
