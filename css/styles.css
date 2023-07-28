@@ -159,6 +159,7 @@ label{
     background: gray;
     border-radius: 200px;
     position: relative;
+    font-family: 'Josefin Slab', serif;
 }
 label::after{
     content: '';
