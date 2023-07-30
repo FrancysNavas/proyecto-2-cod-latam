@@ -15,6 +15,7 @@ body {
     
     
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -28,6 +29,7 @@ header {
     box-shadow: 0 3px 10px -5px #9c9a9a;
     z-index: 1;
 }
+
 /* Para quitar los puntos a los items de listas */
 ul {
     list-style: none;
@@ -65,6 +67,7 @@ h2 {
     width: 60px;    
     margin: 20px;
 }
+
 nav{
     display: flex;
 
@@ -75,7 +78,7 @@ li.menu{
 #logo{
     width: 140px;
     height: 140px;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 .imgperfil {
     margin-top: 120px;
