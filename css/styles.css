@@ -199,3 +199,23 @@ section{
     width: 200px;
     
 }
+.grid-container {
+    display: grid;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
+  grid-template-areas:
+  "area1 area2 . area2 area2";
+  }
+  .grid-item1 {
+    background: blue;
+    text-align: center;
+    border: black 5px solid;
+    grid-column: 1 / span 4;
+    grid-row: 1 / Line2; 
+  }
+  .grid-item2 {
+    background: grey;
+    text-align: center;
+    border: black 5px solid;
+  }
