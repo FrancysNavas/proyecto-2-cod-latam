@@ -28,6 +28,9 @@ header {
     left: 0;
     box-shadow: 0 3px 10px -5px #9c9a9a;
     z-index: 1;
+    background-color: #461959;
+    color: white;
+    
 }
 
 /* Para quitar los puntos a los items de listas */
@@ -36,13 +39,14 @@ ul {
     display:inline-flex;
     padding: 80px;
     margin: 20px;
-
+    
 }
 
 /* Para que los enlaces hereden el color de texto y no tengan subrayado */
 a {
     text-decoration: none;
     color: inherit;
+    
     
 }
 /* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
@@ -70,6 +74,7 @@ h2 {
 
 nav{
     display: flex;
+    
 
 }
 li.menu{
@@ -80,11 +85,14 @@ li.menu{
     height: 140px;
     
 }
+#inicio{
+    
+}
 .imgperfil {
     margin-top: 120px;
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     align-items: center;
 
 }
@@ -160,8 +168,8 @@ p {
 label{
     cursor: pointer;
     text-indent: -2000px;
-    width: 80px;
-    height: 40px;
+    width: 70px;
+    height: 30px;
     background: gray;
     border-radius: 200px;
     position: relative;
@@ -172,14 +180,14 @@ label::after{
     position: absolute;
     top: 5px;
     left: 10px;
-    width: 30px;
-    height: 30px;
-    background: white;
+    width: 20px;
+    height: 20px;
+    background: rgb(255, 255, 255);
     border-radius: 90px;
     transition: 0.4s;
 }
 input:checked + label {
-    background: fuchsia;
+    background: rgb(15, 15, 15);
 }
 input:checked + label::after{
     left: calc(100% - 5px);
@@ -205,7 +213,7 @@ section{
   .features {
     width: 100%;
     height: auto;
-    background-color: #f1f1f1;
+    background-color: #F5EDF7;
     display:inline-flex;
     margin-bottom: 0;    
     padding: 50px 20px;
@@ -232,7 +240,7 @@ section{
   .features2 {
     width: 100%;
     height: auto;
-    background-color: #f1f1f1;
+    background-color: #F5EDF7;
     display:inline-flex;
     margin-top: 0;
     padding-top: 0;    
@@ -287,7 +295,7 @@ section{
 }
 
 .container .card:hover .face.face1{
-    background: #c310b1;
+    background: #BB99CD;
     transform: translateY(0);
 }
 
@@ -494,7 +502,7 @@ form:after {
 #password { background-position: 10px -53px !important }
 #content form input[type="submit"] {
 	background: rgb(254,231,154);
-	background: -moz-linear-gradient(top,  rgba(254,231,154,1) 0%, rgba(254,193,81,1) 100%);
+	background: -moz-linear-gradient(top,  rgb(242, 80, 234) 0%, rgb(233, 4, 236) 100%);
 	background: -webkit-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
 	background: -o-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
 	background: -ms-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
@@ -523,11 +531,11 @@ form:after {
 }
 #content form input[type="submit"]:hover {
 	background: rgb(218, 65, 226);
-	background: -moz-linear-gradient(top,  rgba(218, 65, 226) 0%, rgb(117, 15, 132) 100%);
-	background: -webkit-linear-gradient(top,  rgba(218, 65, 226) 0%,rgba(117, 15, 132) 100%);
-	background: -o-linear-gradient(top,  rgba(218, 65, 226) 0%,rgba(117, 15, 132) 100%);
-	background: -ms-linear-gradient(top,  rgba(218, 65, 226) 0%,rgba(117, 15, 132) 100%);
-	background: linear-gradient(top,  rgba(218, 65, 226) 0%,rgba(117, 15, 132) 100%);
+	background: -moz-linear-gradient(top,  rgb(228, 221, 228) 0%, rgb(117, 15, 132) 100%);
+	background: -webkit-linear-gradient(top,  rgba(228, 221, 228) 0%,rgba(117, 15, 132) 100%);
+	background: -o-linear-gradient(top,  rgba(228, 221, 228) 0%,rgba(117, 15, 132) 100%);
+	background: -ms-linear-gradient(top,  rgba(228, 221, 228) 0%,rgba(117, 15, 132) 100%);
+	background: linear-gradient(top,  rgba(228, 221, 228) 0%,rgba(117, 15, 132) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fec151', endColorstr='#fee79a',GradientType=0 );
 }
 #content form div a {
@@ -557,4 +565,17 @@ form:after {
 	border-radius: 0 0 5px 5px;
 	border-top: 1px solid #CFD5D9;
 	padding: 15px 0;
+}
+/*--------------------------------------------------------------------------*/
+footer {
+    display:inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    height: 90px;
+    width: 100%;
+    box-shadow: 0 3px 10px -5px #9c9a9a;
+    align-content: center;
+    background-color: #461959;
+    color: #AED8CC;
 }
