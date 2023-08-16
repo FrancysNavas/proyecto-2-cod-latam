@@ -28,7 +28,7 @@ header {
     left: 0;
     box-shadow: 0 3px 10px -5px #9c9a9a;
     z-index: 1;
-    background-color: #461959;
+    background-color: #643579;
     color: white;
     
 }
@@ -74,20 +74,19 @@ h2 {
 
 nav{
     display: flex;
-    
+
 
 }
 li.menu{
     margin: 20px;
+    
 }
 #logo{
     width: 140px;
     height: 140px;
     
 }
-#inicio{
-    
-}
+
 .imgperfil {
     margin-top: 120px;
     border-radius: 50%;
@@ -346,7 +345,7 @@ section{
     display:  inline-block;
     text-decoration: none;
     font-weight: 900;
-    color: #333;
+    color: #ffffff;
     padding: 5px;
     border: 1px solid #333;
 }
@@ -357,8 +356,8 @@ section{
 }
 /*-----------------------------------------------------------*/
 b, strong{ font-weight:bold;}
-a{ text-decoration: none; }
-a:hover{ text-decoration: underline; }
+
+a:hover{ text-decoration:none; }
 .left { float:left; }
 .right { float:right; }
 .alignleft { float: left; margin-right: 15px; }
@@ -385,7 +384,7 @@ form:after {
 	-ms-box-shadow: 0 1px 0 #fff inset;
 	-o-box-shadow: 0 1px 0 #fff inset;
 	box-shadow: 0 1px 0 #fff inset;
-	border: 1px solid #c4c6ca;
+	border: 1px solid #3D1860;
 	margin: 0 auto;
 	padding: 25px 0 0;
 	position: relative;
@@ -394,7 +393,7 @@ form:after {
 	width: 400px;
 }
 #content h1 {
-	color: #7E7E7E;
+	color: #3D1860;
 	font: bold 25px Helvetica, Arial, sans-serif;
 	letter-spacing: -0.05em;
 	line-height: 20px;
@@ -409,16 +408,16 @@ form:after {
 	width: 27%;
 }
 #content h1:after {
-	background: rgb(126,126,126);
-	background: -moz-linear-gradient(left,  rgba(126,126,126,1) 0%, rgba(255,255,255,1) 100%);
-	background: -webkit-linear-gradient(left,  rgba(126,126,126,1) 0%,rgba(255,255,255,1) 100%);
-	background: -o-linear-gradient(left,  rgba(126,126,126,1) 0%,rgba(255,255,255,1) 100%);
-	background: -ms-linear-gradient(left,  rgba(126,126,126,1) 0%,rgba(255,255,255,1) 100%);
-	background: linear-gradient(left,  rgba(126,126,126,1) 0%,rgba(255,255,255,1) 100%);
+	background: rgb(#3D1860);
+	background: -moz-linear-gradient(left,  rgba(#BB99CD) 0%, rgba(#643579) 100%);
+	background: -webkit-linear-gradient(left,  rgba(#BB99CD) 0%,rgba(#643579) 100%);
+	background: -o-linear-gradient(left,  rgba(#BB99CD) 0%,rgba(#643579) 100%);
+	background: -ms-linear-gradient(left,  rgba(#BB99CD) 0%,rgba(#643579) 100%);
+	background: linear-gradient(left,  rgba(#BB99CD) 0%,rgba(#643579) 100%);
     right: 0;
 }
 #content h1:before {
-	background: rgb(126,126,126);
+	background: rgb(#3D1860);
 	background: -moz-linear-gradient(right,  rgba(126,126,126,1) 0%, rgba(255,255,255,1) 100%);
 	background: -webkit-linear-gradient(right,  rgba(126,126,126,1) 0%,rgba(255,255,255,1) 100%);
 	background: -o-linear-gradient(right,  rgba(126,126,126,1) 0%,rgba(255,255,255,1) 100%);
@@ -428,14 +427,14 @@ form:after {
 }
 #content:after,
 #content:before {
-	background: #f9f9f9;
+	background: #3D1860;
 	background: -moz-linear-gradient(top,  rgba(248,248,248,1) 0%, rgba(249,249,249,1) 100%);
 	background: -webkit-linear-gradient(top,  rgba(248,248,248,1) 0%,rgba(249,249,249,1) 100%);
 	background: -o-linear-gradient(top,  rgba(248,248,248,1) 0%,rgba(249,249,249,1) 100%);
 	background: -ms-linear-gradient(top,  rgba(248,248,248,1) 0%,rgba(249,249,249,1) 100%);
 	background: linear-gradient(top,  rgba(248,248,248,1) 0%,rgba(249,249,249,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#f9f9f9',GradientType=0 );
-	border: 1px solid #c4c6ca;
+	border: 1px solid #BB99CD;
 	content: "";
 	display: block;
 	height: 100%;
@@ -481,7 +480,7 @@ form:after {
 	transition: all 0.5s ease;
 	background: #eae7e7 no-repeat;
 	border: 1px solid #c8c8c8;
-	color: #777;
+	color: #F5EDF7;
 	font: 13px Helvetica, Arial, sans-serif;
 	margin: 0 0 10px;
 	padding: 15px 10px 15px 40px;
@@ -490,23 +489,23 @@ form:after {
 #content form input[type="text"]:focus,
 #content form input[type="password"]:focus {
 	-webkit-box-shadow: 0 0 2px #161515 inset;
-	-moz-box-shadow: 0 0 2px #ed1c24 inset;
-	-ms-box-shadow: 0 0 2px #ed1c24 inset;
-	-o-box-shadow: 0 0 2px #ed1c24 inset;
-	box-shadow: 0 0 2px #ed1c24 inset;
-	background-color: #fff;
-	border: 1px solid #ed1c24;
+	-moz-box-shadow: 0 0 2px #F5EDF7 inset;
+	-ms-box-shadow: 0 0 2px #F5EDF7 inset;
+	-o-box-shadow: 0 0 2px #F5EDF7 inset;
+	box-shadow: 0 0 2px #F5EDF7 inset;
+	background-color: #F5EDF7;
+	border: 1px solid #F5EDF7;
 	outline: none;
 }
 #username { background-position: 10px 10px !important }
 #password { background-position: 10px -53px !important }
 #content form input[type="submit"] {
-	background: rgb(254,231,154);
-	background: -moz-linear-gradient(top,  rgb(242, 80, 234) 0%, rgb(233, 4, 236) 100%);
-	background: -webkit-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
-	background: -o-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
-	background: -ms-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
-	background: linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	background: rgb(#643579);
+	background: -moz-linear-gradient(top,  rgb(#BB99CD) 0%, rgb(#643579) 100%);
+	background: -webkit-linear-gradient(top,  rgba(#BB99CD) 0%,rgba(#643579) 100%);
+	background: -o-linear-gradient(top,  rgba(#BB99CD) 0%,rgba(#643579) 100%);
+	background: -ms-linear-gradient(top,  rgba(#BB99CD) 0%,rgba(#643579) 100%);
+	background: linear-gradient(top,  rgba(#BB99CD) 0%,rgba(#643579) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee79a', endColorstr='#fec151',GradientType=0 );
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
@@ -518,8 +517,8 @@ form:after {
 	-ms-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
 	-o-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
 	box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
-	border: 1px solid #D69E31;
-	color: #85592e;
+	border: 1px solid #BB99CD;
+	color: #0a0a0a;
 	cursor: pointer;
 	float: left;
 	font: bold 15px Helvetica, Arial, sans-serif;
@@ -546,7 +545,7 @@ form:after {
     text-decoration: underline;
 }
 .button {
-	background: rgb(247,249,250);
+	background: rgb(#643579);
 	background: -moz-linear-gradient(top,  rgba(247,249,250,1) 0%, rgba(240,240,240,1) 100%);
 	background: -webkit-linear-gradient(top,  rgba(247,249,250,1) 0%,rgba(240,240,240,1) 100%);
 	background: -o-linear-gradient(top,  rgba(247,249,250,1) 0%,rgba(240,240,240,1) 100%);
@@ -578,4 +577,7 @@ footer {
     align-content: center;
     background-color: #461959;
     color: #AED8CC;
+}
+.navbar-toggler {
+    color: white;
 }
