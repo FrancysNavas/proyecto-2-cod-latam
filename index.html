@@ -18,9 +18,7 @@
   </head>
   <body>
     <header>
-      
-      
-       <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="#inicio">
             <img id="logo" src="img/Francys navas.png" alt="logo-FrancysNavas"/>
@@ -32,22 +30,22 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" href="#inicio">Inicio</a>
+                <a class="nav-link blanco" href="#inicio">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#estudios">Estudios</a>
+                <a class="nav-link blanco" href="#estudios">Estudios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#proyectos">Proyectos</a>
+                <a class="nav-link blanco" href="#proyectos">Proyectos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#contacto">Contacto</a>
+                <a class="nav-link blanco" href="#contacto">Contacto</a>
               </li>
             </ul>
             
           </div>
         </div>
-        </nav>
+       </nav>
         <input type="checkbox" id="switch" />
         <label for="switch"></label>
 
@@ -56,14 +54,26 @@
     <main>
       <!--seccion inicio-->
       <section id="inicio">
-        <figure>
+        <div class="header-text">
+          <p>Programadora Web</p>
+          <h1>Hola, soy <span>Francys</span><br> Navas...</h1>
+      
+         <figure>
           <img
             class="imgperfil"
-            src="img/Francys Sparkles.png"
+            src="img/Diseño sin título.png"
             alt="imagen-perfil" />
-        </figure>
+            
+         </figure>
+        </div>
+
         <article>
-          <h1>Hola! Soy Francys</h1>
+          <div class="row">
+          <div class="about-col-1">
+          <img src="img/favicon.ico" alt="">
+        </div>
+        <div class="about-col-2">
+          <h1 class="subtitulo">About Me</h1>
           <p>
             En los últimos años me he interesado por aprender sobre programación
             web, lenguajes de programación y lo relacionado con el mundo de la
@@ -73,178 +83,139 @@
             mujeres es muy baja.
           </p>
           <button class="glow-on-hover"><a href="Francys E. Navas.pdf" download="CV Francys Navas">Descarga mi CV</a></button>
+        </div>
+      </div>
         </article>
       </section>
-      <!--seccion estudios-->
-      <section id="estudios">
-      <div class="h4 pb-2 mb-4  border-bottom border-purple"></div>
-        <div class="h4 pb-2 mb-4  border-bottom border-purple">
-          <h2>Estudios Realizados</h2>
-        </div>
-        <!--seccion grid card-->
-      <section class="features">
-        
-        <div class="feature-container">
-          <img src="img/argprogramaYoprogramo.png" alt="Flexbox Feature">
-          <h4>#YoProgramo</h4>
-          <p>Trayecto formativo Perfil Web Full Stack Junior.</p>
-          <p class="card-text"><small class="text-body-secondary">2.023</small></p>
-        </div>
-        <div class="feature-container">
-          <img src="img/requer.png" id="img-bd" alt="Flexbox Feature">
-          <h4>Especialización en Administración en Bases de Datos.</h4>
-          <p>Trayecto formativo realizado en el C.F.P. N°36</p>
-          <p class="card-text"><small class="text-body-secondary">2.022</small></p>
-        </div>
-        <div class="feature-container">
-          <img src="img/berchmark.png" alt="Flexbox Feature">
-          <h4>Inglés (A2)</h4>
-          <p>Curso de Inglés dictado por Pearson</p>
-          <p class="card-text"><small class="text-body-secondary">2.022</small></p>
-        </div>    
-      </section>
-      <section class="features2">
-        <div class="feature-container">
-          <img src="img/siliconmisiones.png" alt="Flexbox Feature">
-          <h4>Desarrollador Web FullStack Java</h4>
-          <p>Trayecto formativo Perfil Web Full Stack Java por Silicon Misiones.</p>
-          <p class="card-text"><small class="text-body-secondary">2.021</small></p>
-        </div>
-        <div class="feature-container">
-          <img src="img/codoacodo.png" alt="Flexbox Feature">
-          <h4>Programador FullStack Java</h4>
-          <p>Trayecto formativo del programa Codo a Codo.</p>
-          <p class="card-text"><small class="text-body-secondary">2.021</small></p>
-        </div>
-        <div class="feature-container">
-          <img src="img/ciscociberseguridad.png" alt="Flexbox Feature">
-          <h4>Introducción a la Seguridad Cibernética</h4>
-          <p>Curso de Introducción a la Seguridad Cibernética de Cisco Networking Academy.</p>
-          <p class="card-text"><small class="text-body-secondary">2.021</small></p>
-        </div>  
-      </section>
-    </section>
-      <!--seccion proyectos-->
-      <section id="proyectos">
-      <div class="h4 pb-2 mb-4  border-bottom border-purple"></div>
-      <div class="h4 pb-2 mb-4  border-bottom border-purple">
-        <h2>Proyectos Desarrollados</h2>
-      </div>
-      <div class="container">
-        <div class="card">
-            <div class="face face1">
-                <div class="content">
-                    <img src="img/portfolio1.png">
-                    <h3>Portfolio Web</h3>
-                </div>
+      <!------------estudios------------->
+      <section id="certificados">
+        <div class="container">
+          <h1 class="subtitulo">Estudios Realizados</h1>
+          <div class="cert-list">
+            <div>
+              <img src="img/argprogramaYoprogramo.png" alt="Flexbox Feature">
+              <h3>#YoProgramo</h3>
+              <p>Trayecto formativo Perfil Web Full Stack Junior.</p>
+              <p class="card-text"><small class="text-body-secondary">2.023</small></p>
             </div>
-            <div class="face face2">
-                <div class="content">
-                    <p>Creación de Proyecto Integrador Portfolio Web FullStack de arquitectura distribuida. FrontEnd desarrollado con Angular
-                      y el BackEnd con Java. (2.023)</p>
-                       
-                </div>
+            <div>
+              <img src="img/requer.png" id="img-bd" alt="Flexbox Feature">
+              <h4>Especialización en Administración en Bases de Datos.</h4>
+              <p>Trayecto formativo realizado en el C.F.P. N°36</p>
+              <p class="card-text"><small class="text-body-secondary">2.022</small></p>
             </div>
-        </div>
-        
-        <div class="card">
-            <div class="face face1">
-                <div class="content">
-                    <img src="img/virtualmachine.png?raw=true">
-                    <h3>Entorno Virtual</h3>
-                </div>
+            <div>
+              <img src="img/berchmark.png" alt="Flexbox Feature">
+              <h4>Inglés (A2)</h4>
+              <p>Curso de Inglés dictado por Pearson</p>
+              <p class="card-text"><small class="text-body-secondary">2.022</small></p>
             </div>
-            <div class="face face2">
-                <div class="content">
-                    <p>Instalación y configuración de un entorno virtual (Virtual Machine) para el balanceo de carga de Bases de Datos. (2.022)</p>
-                        
-                </div>
+            <div>
+              <img src="img/siliconmisiones.png" alt="Flexbox Feature">
+              <h4>Desarrollador Web FullStack Java</h4>
+              <p>Trayecto formativo Perfil Web Full Stack Java por Silicon Misiones.</p>
+              <p class="card-text"><small class="text-body-secondary">2.021</small></p>
             </div>
-        </div>
-        <div class="card">
-            <div class="face face1">
-                <div class="content">
-                    <img src="img/agenciaTurismoJava-Jsp.png">
-                    <h3>Agencia de Turismo</h3>
-                </div>
+            <div>
+              <img src="img/codoacodo.png" alt="Flexbox Feature">
+              <h4>Programador FullStack Java</h4>
+              <p>Trayecto formativo del programa Codo a Codo.</p>
+              <p class="card-text"><small class="text-body-secondary">2.021</small></p>
             </div>
-            <div class="face face2">
-                <div class="content">
-                    <p>Sistema para el manejo de una Agencia de Turismo. Acciones a realizar: Login usuario, registro de clientes, reserva
-                      de habitaciones, baja de clientes. Desarrollado en Java JSP. (2.021)</p>
-                       
-                </div>
+            <div>
+              <img src="img/ciscociberseguridad.png" alt="Flexbox Feature">
+              <h5>Introducción a la Seguridad Cibernética</h5>
+              <p>Curso de Introducción a la Seguridad Cibernética de Cisco Networking Academy.</p>
+              <p class="card-text"><small class="text-body-secondary">2.021</small></p>
             </div>
-        </div>
-        <div class="card">
-          <div class="face face1">
-              <div class="content">
-                  <img src="img/LibropolisJavaJdbc.png">
-                  <h3>Libreria LibroPolis</h3>
-              </div>
           </div>
-          <div class="face face2">
-              <div class="content">
-                  <p>Sistema para el manejo de una libreria. Acciones a realizar: Login de usuario, agregar libros al stock,
-                    editar datos del libro, listar y eliminar libros de la DB. Desarrollado en Java JDBC. (2.021)</p>
-                     
-              </div>
-          </div>
-      </div>
-    </div>
-  </section>
-      
-      <!--seccion proyectos-->
-      
-      <!--seccion contacto-->
-      <section id="contacto">
-        <div class="h4 pb-2 mb-4  border-bottom border-purple"></div>
-        <div class="h4 pb-2 mb-4  border-bottom border-purple">
-          <h2>Hablemos!</h2>
         </div>
-        <p class="cont">
-          Puedes contactarme a través de mis redes o puntos de contacto,
-          sugerirme cursos, datos o realizar alguna pregunta...
-        </p>
       </section>
-      <!-- form -->
-      <div class="container">
-        <section id="content">
-          <form action="mailto:francys.navas.sanchez@gmail.com" method="post" enctype="text/plain">
-            <h1>Escribeme...</h1>
-            <div>
-              <input type="text" placeholder="Tu email" required="" id="username" />
+      <!--trabajos-->
+      <section id="trabajos">
+        <div class="container">
+          <h2>Trabajos Realizados</h2>
+          <div class="work-list">
+            <div class="work">
+              <img src="img/portfolio1.png" alt="">
+              <div class="layer">
+                <h3>Portfolio Web</h3>
+                <p>Creación de Proyecto Integrador Portfolio Web FullStack de arquitectura distribuida. FrontEnd desarrollado con Angular
+                  y el BackEnd con Java. (2.023)</p>
+              </div>
             </div>
-            <div>
-              <input type="text" placeholder="Escribe cualquiera duda o inquietud" required="" id="password" />
-              
+            <div class="work">
+              <img src="img/virtualmachine.png" alt="">
+              <div class="layer">
+                <h3>Entorno Virtual</h3>
+                <p>Instalación y configuración de un entorno virtual (Virtual Machine) para el balanceo de carga de Bases de Datos. (2.022)</p>
+              </div>
             </div>
-            <div>
-              
-              <a href="mailto:francys.navas.sanchez@gmail.com"><input type="submit" value="Enviar" /> </a>
-              
+            <div class="work">
+              <img src="img/agenciaTurismoJava-Jsp.png" alt="">
+              <div class="layer">
+                <h3>Agencia de Turismo</h3>
+                <p>Sistema para el manejo de una Agencia de Turismo. Acciones a realizar: Login usuario, registro de clientes, reserva
+                  de habitaciones, baja de clientes. Desarrollado en Java JSP. (2.021)</p>
+              </div>
             </div>
-          </form><!-- form -->
-          
-        </section><!-- content -->
-        <ul>
-          <li>
-            
-              <img class="iconos" src="img/mail.png" alt="Correo" />
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/FrancysNavas"
-              ><img class="iconos" src="img/github.png" alt="GitHub" />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/francys-e-navas-80a60b172"
-              ><img class="iconos" src="img/linkedin.png" alt="Linkedin" />
-            </a>
-          </li>
-        </ul>
-      </div><!-- container -->
+            <div class="work">
+              <img src="img/LibropolisJavaJdbc.png" alt="">
+              <div class="layer">
+                <h3>Libreria LibroPolis</h3>
+                <p>Sistema para el manejo de una libreria. Acciones a realizar: Login de usuario, agregar libros al stock,
+                  editar datos del libro, listar y eliminar libros de la DB. Desarrollado en Java JDBC. (2.021)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!--contacto-->
+      <section id="contactos">
+        <div class="container2">
+          <div class="row">
+            <div class="contacto-izq">
+              <h2>Contactame</h2>
+              <p>francys.navas.sanchez@gmail.com</p>
+              <p>Ciudad Autónoma de Buenos Aires - Argentina</p>
+              <div class="social-icons">
+                <ul>
+                  <li>
+                    <a href="mailto:francys.navas.sanchez@gmail.com">
+                      <img class="iconos" src="img/mail.png" alt="Correo" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/FrancysNavas"
+                      ><img class="iconos" src="img/github.png" alt="GitHub" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/francys-e-navas-80a60b172"
+                      ><img class="iconos" src="img/linkedin.png" alt="Linkedin" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="contacto-der">
+              <form action="mailto:francys.navas.sanchez@gmail.com" method="post" enctype="text/plain">
+                
+                <input type="text" placeholder="Nombre" required="" id="name" />
+                <input type="texemail" placeholder="Tu email" required="" id="email" />
+                <textarea name="mensaje" id="" cols="30" rows="6" placeholder="Tu opinion"></textarea>
+                <button type="submit" class="btn btn2">Enviar</button>
+                  
+                </div>
+                
+              </form><!-- form -->
+            </div>
+          </div>
+
+        </div>
+
+      </section>
       
       <!----------------------------------->
       
