@@ -124,7 +124,7 @@ h2 {
 .inicio{
     display:inline-block;
     align-content: space-between;
-
+    
 }
 figure{
     margin-left: 500px;
@@ -223,7 +223,7 @@ p {
     background: #9451b4;
 }
 #contactos{
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 .contacto-izq{
     flex-basis: 35%;
@@ -290,6 +290,7 @@ form .btn2{
     position: relative;
     z-index: 0;
     border-radius: 10px;
+    margin-bottom: 40px;
 }
 
 .glow-on-hover:before {
@@ -406,6 +407,26 @@ footer i{
 .navbar-toggler {
     color: white;
 }
-/*-------------------------------------------------*/
+/*------------------media querys-------------------------------*/
+@media only screen and (max-width: 600px) {
 
+    main{
+        margin-left: 30px;
+        
+    }
+    .inicio {
+        width: 30px;
+        height: 50px;
+        justify-content: left;
+
+    }
+    .header-text{
+      margin-top: 50%;
+      
+      font-size: 16px;  
+    }
+    .header-text h1{
+        font-size: 30px;
+    }
+}
 
