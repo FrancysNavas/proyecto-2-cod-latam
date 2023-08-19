@@ -8,13 +8,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Glory:wght@200&family=Stardos+Stencil:wght@700&display=swap" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="icon" type="image/jpg" href="img/favicon.ico" />
+    <script src="https://kit.fontawesome.com/959d81ad24.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
@@ -33,13 +35,13 @@
                 <a class="nav-link blanco" href="#inicio">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link blanco" href="#estudios">Estudios</a>
+                <a class="nav-link blanco" href="#certificados">Estudios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link blanco" href="#proyectos">Proyectos</a>
+                <a class="nav-link blanco" href="#trabajos">Proyectos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link blanco" href="#contacto">Contacto</a>
+                <a class="nav-link blanco" href="#contactos">Contacto</a>
               </li>
             </ul>
             
@@ -73,7 +75,7 @@
           <img src="img/favicon.ico" alt="">
         </div>
         <div class="about-col-2">
-          <h1 class="subtitulo">About Me</h1>
+          <h2 class="subtitulo">About Me</h2>
           <p>
             En los últimos años me he interesado por aprender sobre programación
             web, lenguajes de programación y lo relacionado con el mundo de la
@@ -90,11 +92,11 @@
       <!------------estudios------------->
       <section id="certificados">
         <div class="container">
-          <h1 class="subtitulo">Estudios Realizados</h1>
+          <h2 class="subtitulo">Estudios Realizados</h2>
           <div class="cert-list">
             <div>
               <img src="img/argprogramaYoprogramo.png" alt="Flexbox Feature">
-              <h3>#YoProgramo</h3>
+              <h4>#YoProgramo</h4>
               <p>Trayecto formativo Perfil Web Full Stack Junior.</p>
               <p class="card-text"><small class="text-body-secondary">2.023</small></p>
             </div>
@@ -124,7 +126,7 @@
             </div>
             <div>
               <img src="img/ciscociberseguridad.png" alt="Flexbox Feature">
-              <h5>Introducción a la Seguridad Cibernética</h5>
+              <h4>Introducción a la Seguridad Cibernética</h4>
               <p>Curso de Introducción a la Seguridad Cibernética de Cisco Networking Academy.</p>
               <p class="card-text"><small class="text-body-secondary">2.021</small></p>
             </div>
@@ -139,7 +141,7 @@
             <div class="work">
               <img src="img/portfolio1.png" alt="">
               <div class="layer">
-                <h3>Portfolio Web</h3>
+                <h4>Portfolio Web</h4>
                 <p>Creación de Proyecto Integrador Portfolio Web FullStack de arquitectura distribuida. FrontEnd desarrollado con Angular
                   y el BackEnd con Java. (2.023)</p>
               </div>
@@ -147,14 +149,14 @@
             <div class="work">
               <img src="img/virtualmachine.png" alt="">
               <div class="layer">
-                <h3>Entorno Virtual</h3>
+                <h4>Entorno Virtual</h4>
                 <p>Instalación y configuración de un entorno virtual (Virtual Machine) para el balanceo de carga de Bases de Datos. (2.022)</p>
               </div>
             </div>
             <div class="work">
               <img src="img/agenciaTurismoJava-Jsp.png" alt="">
               <div class="layer">
-                <h3>Agencia de Turismo</h3>
+                <h4>Agencia de Turismo</h4>
                 <p>Sistema para el manejo de una Agencia de Turismo. Acciones a realizar: Login usuario, registro de clientes, reserva
                   de habitaciones, baja de clientes. Desarrollado en Java JSP. (2.021)</p>
               </div>
@@ -162,7 +164,7 @@
             <div class="work">
               <img src="img/LibropolisJavaJdbc.png" alt="">
               <div class="layer">
-                <h3>Libreria LibroPolis</h3>
+                <h4>Libreria LibroPolis</h4>
                 <p>Sistema para el manejo de una libreria. Acciones a realizar: Login de usuario, agregar libros al stock,
                   editar datos del libro, listar y eliminar libros de la DB. Desarrollado en Java JDBC. (2.021)</p>
               </div>
@@ -177,53 +179,35 @@
           <div class="row">
             <div class="contacto-izq">
               <h2>Contactame</h2>
-              <p>francys.navas.sanchez@gmail.com</p>
-              <p>Ciudad Autónoma de Buenos Aires - Argentina</p>
+              <p><i class="fa-solid fa-paper-plane"></i> francys.navas.sanchez@gmail.com</p>
+              <p> Ciudad Autónoma de Buenos Aires - Argentina</p>
               <div class="social-icons">
-                <ul>
-                  <li>
-                    <a href="mailto:francys.navas.sanchez@gmail.com">
-                      <img class="iconos" src="img/mail.png" alt="Correo" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/FrancysNavas"
-                      ><img class="iconos" src="img/github.png" alt="GitHub" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.linkedin.com/in/francys-e-navas-80a60b172"
-                      ><img class="iconos" src="img/linkedin.png" alt="Linkedin" />
-                    </a>
-                  </li>
-                </ul>
+                <a href="mailto:francys.navas.sanchez@gmail.com"><i class="fa-regular fa-envelope" style="color: #ffffff;"></i></a>
+                <a href="https://github.com/FrancysNavas"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
+                <a href="https://www.linkedin.com/in/francys-e-navas-80a60b172"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
+
               </div>
             </div>
             <div class="contacto-der">
               <form action="mailto:francys.navas.sanchez@gmail.com" method="post" enctype="text/plain">
-                
                 <input type="text" placeholder="Nombre" required="" id="name" />
                 <input type="texemail" placeholder="Tu email" required="" id="email" />
                 <textarea name="mensaje" id="" cols="30" rows="6" placeholder="Tu opinion"></textarea>
                 <button type="submit" class="btn btn2">Enviar</button>
-                  
-                </div>
-                
+               
               </form><!-- form -->
             </div>
+            </div>
           </div>
-
         </div>
-
       </section>
       
       <!----------------------------------->
       
-
     </main>
     <footer>
       <small>
-        Código Latam |<i class="bi bi-c-circle"></i> Realizado por: Francys
+        Código Latam |<i class="fa-thin fa-copyright"></i> Realizado por: Francys
         Navas de Castejón
       </small>
     </footer>
