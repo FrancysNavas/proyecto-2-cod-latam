@@ -412,7 +412,10 @@ footer i{
 
     main{
         margin-left: 30px;
-        
+         
+    }
+    figure{
+        margin-left: 50px;
     }
     .inicio {
         width: 30px;
